@@ -1,9 +1,11 @@
 {
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
+  "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 33,
-  "defaultSelectedValues": "[\n  \"SPN\"\n]",
+  "bottomRow": 24,
+  "boxShadow": "none",
+  "defaultText": "",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -14,50 +16,43 @@
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
-  "flexVerticalAlignment": "start",
+  "iconAlign": "left",
+  "iconName": "add-to-artifact",
+  "inputType": "TEXT",
   "isDisabled": false,
-  "isInline": true,
   "isLoading": false,
   "isRequired": false,
   "isVisible": true,
-  "key": "098crljjkt",
+  "key": "1anwpy2r1d",
+  "label": "Please, provide more details: ",
   "labelAlignment": "left",
   "labelPosition": "Top",
-  "labelText": "Select language that you chose to learn:",
+  "labelStyle": "",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
   "leftColumn": 19,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
-  "mobileBottomRow": 48,
-  "mobileLeftColumn": 11,
-  "mobileRightColumn": 34,
-  "mobileTopRow": 42,
+  "minWidth": 450,
+  "mobileBottomRow": 34,
+  "mobileLeftColumn": 19,
+  "mobileRightColumn": 39,
+  "mobileTopRow": 27,
   "needsErrorInfo": false,
-  "options": [
-    {
-      "label": "English",
-      "value": "ENG"
-    },
-    {
-      "label": "Spanish",
-      "value": "SPN"
-    },
-    {
-      "label": "Ukrainian",
-      "value": "UKN"
-    }
-  ],
-  "originalBottomRow": 43,
-  "originalTopRow": 36,
+  "originalBottomRow": 34,
+  "originalTopRow": 17,
   "parentColumnSpace": 20.5625,
   "parentId": "0",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
-  "rightColumn": 42,
-  "topRow": 26,
-  "type": "CHECKBOX_GROUP_WIDGET",
+  "resetOnSubmit": true,
+  "responsiveBehavior": "fill",
+  "rightColumn": 41,
+  "shouldScrollContents": true,
+  "showStepArrows": false,
+  "topRow": 17,
+  "type": "INPUT_WIDGET_V2",
   "version": 2,
-  "widgetId": "7oly4txyon",
-  "widgetName": "CheckboxGroup1"
+  "widgetId": "wzql2fawvh",
+  "widgetName": "Input1"
 }
